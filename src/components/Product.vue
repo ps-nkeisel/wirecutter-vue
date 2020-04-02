@@ -19,9 +19,9 @@
               </b-link>
             </div>
             <p class="text-center">Apple/Beats</p>
-            <p class="text-center">Price: $299.95</p>
-            <p>Pros: Great battery life, incredible sound, comfortable</p>
-            <p>Cons: Expensive, warranty, limited color choices</p>
+            <p class="text-center"><b-badge variant="warning">Price: $299.95</b-badge></p>
+            <b-alert show variant="success">Pros: Great battery life, incredible sound, comfortable</b-alert>
+            <b-alert show variant="danger">Cons: Expensive, warranty, limited color choices</b-alert>
             <p>
               We absolutely loved the new 
               <b-link href="#">Beats by Dre PowerBeats </b-link>

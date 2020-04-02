@@ -1,7 +1,7 @@
 <template>
   <div id="app">
-    <b-container>
-      <Navbar />
+    <Navbar />
+    <b-container class="pb-5">
       <Header />
 
       <h1 class="my-4">The Best Headphones For Exercise</h1>
@@ -78,28 +78,24 @@
       </p>
       <hr class="my-4" />
 
-      <h4>Other reviews you may like:</h4>
-      <table border class="mb-3" padding=3>
-        <tbody>
-          <tr>
-            <td>
-              <b-link href="#">Nam non volutpat massa</b-link>
-              , eget ultrices neque. Pellentesque semper pharetra magna eu posuere.
-            </td>
-            <td>
-              <b-link href="#">Nulla et eros bibendum</b-link>
-              , tempus velit a, fringilla ligula. Cras cursus feugiat mi, laoreet laoreet ante scelerisque et.
-            </td>
-            <td>
-              <b-link href="#">Proin elementum faucibus</b-link>
-              tincidunt. Nullam sed orci et lacus luctus pharetra. Quisque iaculis metus quis.
-            </td>
-          </tr>
-        </tbody>
-      </table>
-
-      <Footer />
+      <b-card header="Other reviews you may like:">
+        <b-list-group>
+          <b-list-group-item href="#" variant="light">
+            <b-link href="#">Nam non volutpat massa</b-link>
+            , eget ultrices neque. Pellentesque semper pharetra magna eu posuere.
+          </b-list-group-item>
+          <b-list-group-item href="#" variant="light">
+            <b-link href="#">Nulla et eros bibendum</b-link>
+            , tempus velit a, fringilla ligula. Cras cursus feugiat mi, laoreet laoreet ante scelerisque et.
+          </b-list-group-item>
+          <b-list-group-item href="#" variant="light">
+            <b-link href="#">Proin elementum faucibus</b-link>
+            tincidunt. Nullam sed orci et lacus luctus pharetra. Quisque iaculis metus quis.
+          </b-list-group-item>
+        </b-list-group>
+      </b-card>
     </b-container>
+    <Footer />
   </div>
 </template>
 
